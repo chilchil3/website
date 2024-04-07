@@ -99,10 +99,10 @@ li {
   object-fit: cover;
 }
 }
-#pdf{
+#jpeg{
   width: 100%;
   max-width: 1920px;
-  height: 1250px;
+  height: 420px;
   object-fit: cover;
 }
 #footer {
@@ -141,11 +141,11 @@ li {
     </ul>
   </nav>
 </header>
-<div id=pdf>
-  <object data="kaiseki.pdf" type="application/pdf" width="100%" height="100%">
-  表示されない場合はこちらからDLしてください:
-  <a href="kaiseki.pdf">kaiseki.pdf</a>
-</object>
+      <div id="jpeg">
+        <picture>
+          <source media="(max-width: 600px)" srcset="2022会席.jpg">
+          <img src="2022会席.jpg" alt="会席の写真">
+        </picture>
 </div>
  <footer id="footer">
        <p>&copy; 2024 Tokiwadai Kametani</p> 
